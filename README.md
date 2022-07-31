@@ -9,12 +9,12 @@
 ## Step2: setup regist.py
 * For this part, let the customer edit their name and email.
 * When they click submit, the server will force customre to the process.py
-* http://localhost:8000/cgi-bin/process.py?name=<name>mail=<mail>
+* http://localhost:8000/cgi-bin/process.py?name=??mail=??
 
 ## Step3: process.py
 * In this page, it is use to conform the registraction from correct or not.
 * Onece customer click submit, the server will sent you to the confirm.py
-* http://localhost:8000/cgi-bin/confirm.py?confirm=(YES or NO)
+* http://localhost:8000/cgi-bin/confirm.py?confirm=YES or NO
 
 ## Step4: confim.py
 * In the confrim page, It will shows the registraction result.
