@@ -22,4 +22,7 @@
 * When the customer choose No in last step, the server will stell you information is incorrect, and let you registraction agin or go to top.
 
 ## Step5: PPT
+Use NGRok: Let people access your web server
+
+
 https://docs.google.com/presentation/d/1rvB5G8sTF3fEyzeI6yMxGAv1hzFMs_AzT6vY6ILfz-Y/edit?usp=sharing
