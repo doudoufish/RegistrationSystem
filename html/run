@@ -1,4 +1,0 @@
-# python -m http.server 8000
-# python3 -m http.server --bind localhost --cgi 8000
-# python -m http.server --cgi 7000
-python -m http.server --cgi
