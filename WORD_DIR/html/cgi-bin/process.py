@@ -30,10 +30,12 @@ print('''<html>
                 <h3 align=center style="color:red;">Is this information correct ?</h3>
                 <br>
                 <form align=center method=GET action="confirm.py">
-                    <input type=radio name='confirm' value='yes'> YES   
+                    <input type=radio name='confirm' value='yes'> YES
+                    <input type=hidden name='name' value='%s'>
+                    <input type=hidden name='email' value='%s'>
                     <input type=radio name='confirm' value='no' checked> NO 
                     <input type=submit value=Submit>     
                     <input type=reset value=Reset>
                 </form>
             </body>
-        </HTML>'''%(name,email))
+        </HTML>'''%(name,email,name,email))
